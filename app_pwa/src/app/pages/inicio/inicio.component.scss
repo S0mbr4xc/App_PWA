@@ -1,0 +1,80 @@
+#inicio{
+    background-color: rgb(213, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: 75vh;
+    padding: 5px;
+}
+#boton1{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+#boton2{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+#b1{
+    background-color: rgba(128, 128, 255, 0.305);
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    width: 100%; 
+    height: 90%; 
+    margin-top: 15px;
+    font-size: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://deproconsultores.com/wp-content/uploads/2018/02/Art-220-Training-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease;
+}
+#b2{
+    background-color: rgba(128, 128, 255, 0.305);
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    width: 100%; 
+    height: 90%; 
+    margin-top: 15px;
+    font-size: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://thumbs.dreamstime.com/z/revisi%C3%B3n-de-archivos-listas-icono-vectores-aislados-que-se-puede-modificar-o-editar-f%C3%A1cilmente-161268136.jpg?w=768");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease;
+}
+#b1:hover{
+    transform: scale(1.05);
+}
+#b2:hover{
+    transform: scale(1.05);
+}
+@media only screen and (max-width: 800px) {
+    #b1, #b2{
+        font-size: 20px;
+    }
+}
